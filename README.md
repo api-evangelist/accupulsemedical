@@ -1,4 +1,4 @@
-# Accupulsemedical
+# AccuPulse Medical Technology Co., Ltd.
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Accupulsemedical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/accupulsemedical
+AccuPulse Medical Technology Co., Ltd. (Suzhou AccuPulse, 艾科脉) is a cardiac electrophysiology
+medical device company in Suzhou Industrial Park, Jiangsu, China, founded in November 2020 to treat
+atrial fibrillation with non-thermal ablation. It is developing a pulsed electric field ablation
+(PFA) system — the AccuBlator generator and AccuPulse catheter — which applies high-voltage
+electrical fields to endocardial tissue to cause irreversible electroporation rather than the
+thermal injury associated with radiofrequency and cryoablation, together with Accu-System, a 3D
+cardiac electroanatomic mapping and navigation platform. The company runs R&D centers in China and
+the United States and has raised Pre-A, A and A+ rounds.
+
+**No public API surface.** AccuPulse sells regulated medical devices to hospitals and
+electrophysiologists. As of 2026-09-06 this profile records an honest zero: no OpenAPI, Swagger,
+GraphQL, AsyncAPI, gRPC or WSDL contract, no MCP server, no A2A agent card, no developer portal, no
+SDK in any public package registry, and no GitHub organization. Every `/.well-known/` discovery path
+returns 404 on `accupulse.com`, `www.accupulse.com` and `eifu.accupulse.com`. See `x-coverage` in
+`apis.yml` for the probed evidence.
+
+- Website: https://accupulse.com/
+- eIFU (electronic Instructions For Use) portal: https://eifu.accupulse.com/
+- Secondary-market listing: https://equityzen.com/company/accupulsemedical

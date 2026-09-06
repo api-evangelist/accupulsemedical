@@ -1,0 +1,92 @@
+generated: '2026-09-06'
+method: probed
+source: >-
+  Live unauthenticated GET of the named /.well-known/ path list against every host AccuPulse
+  Medical Technology operates — the apex and www of accupulse.com (the corporate site) and
+  eifu.accupulse.com (the electronic Instructions For Use portal linked from the site nav as
+  "Download"). There is no API baseURL, no OpenAPI servers[] host and no docs/console host to
+  probe: api., docs., developer., developers. and portal.accupulse.com do not resolve in DNS.
+  Every probed path returned 404. Recorded as an absence — no WellKnown and no SecurityTxt
+  pointer is wired in apis.yml, because nothing here is served.
+note: >-
+  accupulse.com is a 建站宝盒 / faisys (508sys.com) hosted site builder tenant and returns an
+  identical 886-byte 404 HTML body for every unknown path, verified against the control path
+  /zz-api-evangelist-control-9f3a which returned the same 404 and the same byte count.
+  eifu.accupulse.com is a single-page app whose ROOT namespace answers HTTP 200 with an 8,564-byte
+  HTML shell for any path (/openapi.json, /swagger.json, /graphql, /llms.txt and /docs all return
+  that shell, and so does the control path /zz-api-evangelist-control-9f3a) — those 200s are the
+  SPA catch-all, not documents, and are treated as misses. Its /.well-known/ namespace is served
+  by the origin rather than the app and returns a real 548-byte nginx 404 on every path below.
+hosts:
+- host: accupulse.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+- host: www.accupulse.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: eifu.accupulse.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
