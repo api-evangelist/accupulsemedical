@@ -1,5 +1,5 @@
 aid: accupulsemedical
-name: AccuPulse Medical Technology Co., Ltd.
+name: AccuPulse Medical
 description: >-
   AccuPulse Medical Technology Co., Ltd. (Suzhou AccuPulse, 艾科脉) is a cardiac electrophysiology
   medical device company in Suzhou Industrial Park, Jiangsu, China, founded in November 2020 to
@@ -116,3 +116,4 @@ x-coverage:
   - url: https://api.github.com/orgs/accupulse
     status: 404
   checked: '2026-09-06'
+x-legal-name: AccuPulse Medical Technology Co., Ltd.
