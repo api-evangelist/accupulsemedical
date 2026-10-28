@@ -1,4 +1,4 @@
-# AccuPulse Medical Technology Co., Ltd.
+# AccuPulse Medical
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,22 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AccuPulse Medical Technology Co., Ltd. (Suzhou AccuPulse, 艾科脉) is a cardiac electrophysiology
-medical device company in Suzhou Industrial Park, Jiangsu, China, founded in November 2020 to treat
-atrial fibrillation with non-thermal ablation. It is developing a pulsed electric field ablation
-(PFA) system — the AccuBlator generator and AccuPulse catheter — which applies high-voltage
-electrical fields to endocardial tissue to cause irreversible electroporation rather than the
-thermal injury associated with radiofrequency and cryoablation, together with Accu-System, a 3D
-cardiac electroanatomic mapping and navigation platform. The company runs R&D centers in China and
-the United States and has raised Pre-A, A and A+ rounds.
+AccuPulse Medical Technology Co., Ltd. (Suzhou AccuPulse, 艾科脉) is a cardiac electrophysiology medical device company in Suzhou Industrial Park, Jiangsu, China, founded in November 2020 to treat atrial fibrillation with non-thermal ablation. It is developing a pulsed electric field ablation (PFA) system — the AccuBlator generator and AccuPulse catheter — using high-voltage fields to induce irreversible electroporation in endocardial cells instead of the thermal injury caused by radiofrequency and cryoablation, plus Accu-System, a 3D cardiac electroanatomic mapping and navigation platform with magnetic/electrical localization and high-channel intracardiac EGM acquisition. The founding team came out of Johnson & Johnson, GE, Abbott, Acutus Medical and MicroPort, with R&D in China and the United States. AccuPulse sells regulated devices to hospitals; it runs no developer program and publishes no public API, SDK or machine-readable API contract on any host it controls.
 
-**No public API surface.** AccuPulse sells regulated medical devices to hospitals and
-electrophysiologists. As of 2026-09-06 this profile records an honest zero: no OpenAPI, Swagger,
-GraphQL, AsyncAPI, gRPC or WSDL contract, no MCP server, no A2A agent card, no developer portal, no
-SDK in any public package registry, and no GitHub organization. Every `/.well-known/` discovery path
-returns 404 on `accupulse.com`, `www.accupulse.com` and `eifu.accupulse.com`. See `x-coverage` in
-`apis.yml` for the probed evidence.
+**Areas:** Company · Medical Devices · Healthcare · Cardiology · Electrophysiology · Cardiac Ablation · Medical Imaging · Manufacturing · China
 
-- Website: https://accupulse.com/
-- eIFU (electronic Instructions For Use) portal: https://eifu.accupulse.com/
-- Secondary-market listing: https://equityzen.com/company/accupulsemedical
+## AccuPulse Medical on APIs.io
+
+Everything profiled for AccuPulse Medical is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/accupulsemedical/](https://apis.io/providers/accupulsemedical/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Accupulsemedical Domain Security](https://apis.io/security/accupulsemedical/accupulsemedical-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://accupulse.com/)
+
+## API Evangelist rating
+
+**Kin Score 3.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/accupulsemedical/](https://apis.io/providers/accupulsemedical/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AccuPulse Medical: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/accupulsemedical/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
